@@ -1,10 +1,11 @@
 fn main() {
+
     let fullname = "Chibudum John Umeh";
     let department = "Computer Science";
     let uni = "Pan-Atlantic University";
 
 
-    let mut school = "School ogf Science".to_string();
+    let mut school = "School of Science".to_string();
     // push string
     school.push_str(" and Technology");
 
