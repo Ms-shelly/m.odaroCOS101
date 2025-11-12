@@ -23,7 +23,7 @@ fn main() {
     let quantity: i32 = quantity_input.trim().parse().expect("Please enter a valid number");
 
  
-    let price = match food_type.as_str() {
+    let price = match food_choice.as_str() {
         "P" => 3200,
         "F" => 3000,
         "A" => 2500,
@@ -48,7 +48,7 @@ fn main() {
     // Display total
     println!("ORDER SUMMARY");
     println!("===============================");
-    println!("Food Type: {}", food_type);
+    println!("Food Choice: {}", food_choice);
     println!("Quantity: {}", quantity);
     println!("Total: {}", total);
     println!("===============================");
